@@ -5,7 +5,10 @@
 
 {% block content %}
 <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
-  <img src="{% static 'images/logo.png' %}" class="img-fluid" alt="DjangoX logo"/>
-  <p class="lead">A Django starter project with batteries.</p>
+  <img src="{% static 'images/logo.png' %}" id="site-log" class="img-fluid" alt="CampGrounds logo" />
+  <img src="{% static 'images/camp.png' %}" class="img-fluid" alt="CampGrounds picture" />
+  <h2 id="tagline" class="lead">The best place to find your next camping site. Click <a
+      href="{% url 'blog_list' %}">here</a> to explore the
+    site</h2>
 </div>
 {% endblock content %}

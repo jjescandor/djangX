@@ -1,0 +1,14 @@
+{% extends '_base.html' %}
+
+{% block content %}
+<div class="camp-div">
+    <ul>
+        {% for camp in blog_list %}
+        <li>
+            <h1><a href="{% url 'blog_detail' camp.pk %}">{{camp}}</a></h1>
+        </li>
+        {%endfor%}
+    </ul>
+</div>
+
+{% endblock content %}

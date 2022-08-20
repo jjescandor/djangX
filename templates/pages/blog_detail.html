@@ -1,0 +1,14 @@
+{%extends '_base.html'%}
+
+{%block content%}
+<section>
+    <h2>{{ camp.title }}</h2>
+    <h3>{{ camp.description }}</h3>
+    <h2>Posted by: {{ camp.posted_by }}</h2>
+    <h4>{{ camp.created }}</h4>
+    <div class="buttons">
+        <a href="#"><button>delete</button></a>
+        <a href="#"><button>update</button></a>
+    </div>
+</section>
+{%endblock content%}
