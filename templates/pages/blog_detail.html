@@ -7,8 +7,8 @@
     <h2>Posted by: {{ camp.posted_by }}</h2>
     <h4>{{ camp.created }}</h4>
     <div class="buttons">
-        <a href="#"><button>delete</button></a>
-        <a href="#"><button>update</button></a>
+        <a href="{% url 'delete_blog' camp.pk %}"><button>delete</button></a>
+        <a href="{% url 'update_blog' camp.pk %}"><button>update</button></a>
     </div>
 </section>
 {%endblock content%}
