@@ -20,6 +20,7 @@ body {
   margin-bottom: 60px;
   /* Margin bottom by footer height */
   background-color: rgb(59, 59, 63);
+  color: whitesmoke;
 }
 
 .container {
