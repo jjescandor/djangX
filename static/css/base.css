@@ -12,6 +12,16 @@ html {
   }
 }
 
+a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+a:hover {
+  color: salmon;
+  text-decoration: none;
+}
+
 /* main {
   background-color: rgb(47, 47, 50);
 } */
@@ -91,4 +101,8 @@ btn {
   height: 100%;
   border: none;
   background-color: transparent !important;
+}
+
+a {
+  color: aquamarine
 }

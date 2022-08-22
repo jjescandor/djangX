@@ -1,6 +1,5 @@
 {% extends '_base.html' %}
 {% load static %}
-
 {% block title %}Home page{% endblock title %}
 
 {% block content %}
@@ -9,7 +8,7 @@
   <img src="{% static 'images/camp.png' %}" class="img-fluid" alt="CampGrounds picture" />
 
   {% if user.username %}
-  <h2 id="tagline" class="lead">The best place to find your next camping site. Click <a
+  <h2 id="tagline" class="lead">The best place to find your next camping site. Click <a id="here"
       href="{% url 'blog_list' %}">here</a> to explore the
     site</h2>
   {% else %}
